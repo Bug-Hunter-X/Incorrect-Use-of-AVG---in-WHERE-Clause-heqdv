@@ -1,0 +1,1 @@
+This example demonstrates a common error in SQL queries involving the use of aggregate functions like AVG() within the WHERE clause. The query attempts to filter employees in the 'Sales' department whose salary is greater than the average salary.  However, the AVG() function needs to be used with a subquery or CTE for this to work correctly.
